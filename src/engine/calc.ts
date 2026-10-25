@@ -191,8 +191,9 @@ export function calculateProduct(model: Model, product: Product): Result {
     paymentFeeWorst = -Infinity;
     for (const m of worstSet) {
       const fee = methodPct(m, domestic) * feeFactor * netRevenue + methodFixed(m, domestic);
-      if (fee > paymentFeeWorst + EPS) {
-        paymentFeeWorst = fee;
+      // On a tie the last method in table order is named, as in the reference workbook.
+      if (fee >= paymentFeeWorst - EPS) {
+        paymentFeeWorst = Math.max(paymentFeeWorst, fee);
         worstMethod = m.name;
       }
     }

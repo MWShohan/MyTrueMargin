@@ -66,17 +66,37 @@ cols = {"tier": "G", "markupPrice": "H", "markupProfit": "I", "minimumSafePrice"
         "grossProfit": "V", "grossMargin": "W", "breakEvenPrice": "X", "recommendedPrice": "Y", "breakEvenRoas": "Z",
         "maxAdCostAtTarget": "AA", "status": "AB", "netRevenue": "BR", "paymentFeeExpected": "BT",
         "paymentFeeWorst": "BU", "roasForTarget": "CC", "contributionPerOrder": "CE", "landedCost": "BD"}
+def code(text):
+    """Status style text ("TOO HIGH: above competitor") to its code ("TOO_HIGH")."""
+    return str(text).split(":")[0].strip().replace(" ", "_") if text not in (None, "") else None
+
+
+def price_source(text):
+    """Products!CF (internal price source text) to the engine's PriceSource code."""
+    if text in (None, ""):
+        return None
+    t = str(text)
+    if t.startswith("Your override"):
+        return "override"
+    if t.startswith("Raised to minimum safe"):
+        return "raisedToMinimumSafe"
+    return "markup"
+
+
 products = []
 for r in range(6, 206):
     if P[f"A{r}"].value in (None, ""):
         continue
     i = len(products) + 1
+    expected = {k: P[f"{c}{r}"].value for k, c in cols.items()}
+    expected["competitorPosition"] = code(P[f"Q{r}"].value)
+    expected["priceSource"] = price_source(P[f"CF{r}"].value)
     products.append({
         "input": {"id": f"wb{i}", "name": f"Workbook product {i}", "market": P[f"B{r}"].value or "",
                   "unitCost": P[f"C{r}"].value, "supplierShipping": P[f"D{r}"].value,
                   "adCostPerOrder": P[f"E{r}"].value, "priceOverride": P[f"F{r}"].value,
                   "competitorPrice": P[f"L{r}"].value},
-        "expected": {k: P[f"{c}{r}"].value for k, c in cols.items()},
+        "expected": expected,
     })
 summary = {"fixedMonthly": S["C42"].value, "fixedPerOrder": S["C43"].value}
 json.dump({"model": model, "products": products, "summary": summary}, open(out, "w"), indent=1)

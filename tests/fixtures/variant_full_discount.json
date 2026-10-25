@@ -1,0 +1,562 @@
+{
+ "model": {
+  "settings": {
+   "currency": "USD",
+   "defaultMarket": "United States",
+   "expectedPaymentMethod": "Standard card or wallet",
+   "fxRate": 1.0,
+   "fxFeePct": 0.02,
+   "sellerPaysDuty": false,
+   "chargebackPct": 0.015,
+   "platformFeePct": 0,
+   "platformFeePerOrder": 0.4,
+   "discountPct": 1.0,
+   "otherCostPerOrder": 0.0,
+   "refundPct": 0.05,
+   "returnHandlingCost": 10.0,
+   "targetMarginPct": 0.2,
+   "bufferPct": 0.03,
+   "minProfitPerOrder": 3.0,
+   "maxBreakEvenRoas": 3.0,
+   "monthlyOrders": 100.0,
+   "paymentFeeBase": "taxInclusive"
+  },
+  "pricing": {
+   "tiers": [
+    {
+     "min": 0.0,
+     "max": 5.0,
+     "markupPct": 1.3,
+     "markupAmount": 4.0
+    },
+    {
+     "min": 5.01,
+     "max": 10.0,
+     "markupPct": 0.94,
+     "markupAmount": 3.0
+    },
+    {
+     "min": 10.01,
+     "max": 20.0,
+     "markupPct": 0.62,
+     "markupAmount": 5.0
+    },
+    {
+     "min": 20.01,
+     "max": 40.0,
+     "markupPct": 0.63,
+     "markupAmount": 5.0
+    },
+    {
+     "min": 40.01,
+     "max": 75.0,
+     "markupPct": 0.64,
+     "markupAmount": 5.0
+    },
+    {
+     "min": 75.01,
+     "max": 125.0,
+     "markupPct": 0.62,
+     "markupAmount": 5.0
+    },
+    {
+     "min": 125.01,
+     "max": 200.0,
+     "markupPct": 0.6,
+     "markupAmount": 5.0
+    },
+    {
+     "min": 200.01,
+     "max": 300.0,
+     "markupPct": 0.58,
+     "markupAmount": 5.0
+    }
+   ],
+   "basis": "pctPlusAmount",
+   "feeGrossUpPct": 0.0,
+   "feeGrossUpFixed": 0.0,
+   "includeShippingInCost": true,
+   "minMarkupProfit": 10.0,
+   "rounding": "cent",
+   "raiseToMinimumSafe": false,
+   "competitorBandPct": 0.1
+  },
+  "fixedCosts": [
+   {
+    "id": "fc25",
+    "name": "Fixed cost 1",
+    "category": "Platform",
+    "monthly": 39.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc26",
+    "name": "Fixed cost 2",
+    "category": "Sourcing",
+    "monthly": 64.77,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc27",
+    "name": "Fixed cost 3",
+    "category": "Shopify app",
+    "monthly": 13.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc28",
+    "name": "Fixed cost 4",
+    "category": "Shopify app",
+    "monthly": 42.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc29",
+    "name": "Fixed cost 5",
+    "category": "Shopify app",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc30",
+    "name": "Fixed cost 6",
+    "category": "Shopify app",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc31",
+    "name": "Fixed cost 7",
+    "category": "Shopify app",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc32",
+    "name": "Fixed cost 8",
+    "category": "Shopify app",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc33",
+    "name": "Fixed cost 9",
+    "category": "Shopify app",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc34",
+    "name": "Fixed cost 10",
+    "category": "Shopify app",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc35",
+    "name": "Fixed cost 11",
+    "category": "Shopify app",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc36",
+    "name": "Fixed cost 12",
+    "category": "Shopify app",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc37",
+    "name": "Fixed cost 13",
+    "category": "Other fixed",
+    "monthly": 0.915,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc38",
+    "name": "Fixed cost 14",
+    "category": "Other fixed",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc39",
+    "name": "Fixed cost 15",
+    "category": "Other fixed",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc40",
+    "name": "Fixed cost 16",
+    "category": "Other fixed",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   },
+   {
+    "id": "fc41",
+    "name": "Fixed cost 17",
+    "category": "Other fixed",
+    "monthly": 0.0,
+    "perOrder": 0.0
+   }
+  ],
+  "markets": [
+   {
+    "name": "United States",
+    "taxRate": 0.0,
+    "pricesIncludeTax": false,
+    "dutyRate": 0.0,
+    "otherTaxPct": 0.0,
+    "region": "domestic",
+    "customerFxFeePct": 0.0,
+    "shippingCharged": 0.0
+   },
+   {
+    "name": "Canada",
+    "taxRate": 0.05,
+    "pricesIncludeTax": false,
+    "dutyRate": 0.0,
+    "otherTaxPct": 0.0,
+    "region": "international",
+    "customerFxFeePct": 0.015,
+    "shippingCharged": 0.0
+   },
+   {
+    "name": "United Kingdom",
+    "taxRate": 0.2,
+    "pricesIncludeTax": true,
+    "dutyRate": 0.0,
+    "otherTaxPct": 0.0,
+    "region": "international",
+    "customerFxFeePct": 0.015,
+    "shippingCharged": 0.0
+   },
+   {
+    "name": "European Union",
+    "taxRate": 0.21,
+    "pricesIncludeTax": true,
+    "dutyRate": 0.0,
+    "otherTaxPct": 0.0,
+    "region": "international",
+    "customerFxFeePct": 0.015,
+    "shippingCharged": 0.0
+   },
+   {
+    "name": "Australia",
+    "taxRate": 0.1,
+    "pricesIncludeTax": true,
+    "dutyRate": 0.0,
+    "otherTaxPct": 0.0,
+    "region": "international",
+    "customerFxFeePct": 0.015,
+    "shippingCharged": 0.0
+   },
+   {
+    "name": "New Zealand",
+    "taxRate": 0.15,
+    "pricesIncludeTax": true,
+    "dutyRate": 0.0,
+    "otherTaxPct": 0.0,
+    "region": "international",
+    "customerFxFeePct": 0.015,
+    "shippingCharged": 0.0
+   },
+   {
+    "name": "United Arab Emirates",
+    "taxRate": 0.05,
+    "pricesIncludeTax": true,
+    "dutyRate": 0.0,
+    "otherTaxPct": 0.0,
+    "region": "international",
+    "customerFxFeePct": 0.015,
+    "shippingCharged": 0.0
+   }
+  ],
+  "paymentMethods": [
+   {
+    "name": "Standard card or wallet",
+    "includeInWorstCase": true,
+    "availability": "all",
+    "domesticPct": 0.029,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.039,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   },
+   {
+    "name": "Premium card or wallet",
+    "includeInWorstCase": true,
+    "availability": "all",
+    "domesticPct": 0.035,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.045,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   },
+   {
+    "name": "Manual entry",
+    "includeInWorstCase": false,
+    "availability": "all",
+    "domesticPct": 0.035,
+    "domesticFixed": 0.1,
+    "internationalPct": 0.035,
+    "internationalFixed": 0.1,
+    "extraPct": 0.0
+   },
+   {
+    "name": "American Express",
+    "includeInWorstCase": true,
+    "availability": "all",
+    "domesticPct": 0.035,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.045,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   },
+   {
+    "name": "PayPal Wallet",
+    "includeInWorstCase": true,
+    "availability": "all",
+    "domesticPct": 0.0349,
+    "domesticFixed": 0.49,
+    "internationalPct": 0.0499,
+    "internationalFixed": 0.49,
+    "extraPct": 0.0
+   },
+   {
+    "name": "USDC",
+    "includeInWorstCase": true,
+    "availability": "all",
+    "domesticPct": 0.029,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.029,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   },
+   {
+    "name": "ACH Direct Debit",
+    "includeInWorstCase": true,
+    "availability": "domestic",
+    "domesticPct": 0.01,
+    "domesticFixed": 0.0,
+    "internationalPct": 0.01,
+    "internationalFixed": 0.0,
+    "extraPct": 0.0
+   },
+   {
+    "name": "Bancontact",
+    "includeInWorstCase": true,
+    "availability": "international",
+    "domesticPct": 0.039,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.039,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   },
+   {
+    "name": "Bizum",
+    "includeInWorstCase": true,
+    "availability": "international",
+    "domesticPct": 0.039,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.039,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   },
+   {
+    "name": "iDEAL or Wero",
+    "includeInWorstCase": true,
+    "availability": "international",
+    "domesticPct": 0.039,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.039,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   },
+   {
+    "name": "MB WAY",
+    "includeInWorstCase": true,
+    "availability": "international",
+    "domesticPct": 0.039,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.039,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   },
+   {
+    "name": "Satispay",
+    "includeInWorstCase": true,
+    "availability": "international",
+    "domesticPct": 0.014,
+    "domesticFixed": 0.3,
+    "internationalPct": 0.014,
+    "internationalFixed": 0.3,
+    "extraPct": 0.0
+   }
+  ]
+ },
+ "products": [
+  {
+   "input": {
+    "id": "wb1",
+    "name": "Workbook product 1",
+    "market": "",
+    "unitCost": 20,
+    "supplierShipping": 0,
+    "adCostPerOrder": null,
+    "priceOverride": null,
+    "competitorPrice": 6.29
+   },
+   "expected": {
+    "tier": 3,
+    "markupPrice": 37.4,
+    "markupProfit": 17.4,
+    "minimumSafePrice": "Check inputs",
+    "priceToPublish": 37.4,
+    "competitorDiffPct": 4.94594594594595,
+    "netProfit": -23.19685,
+    "netMargin": 0,
+    "netProfitWorst": -23.38685,
+    "worstMethod": "PayPal Wallet",
+    "grossProfit": -20.4,
+    "grossMargin": 0,
+    "breakEvenPrice": "Check inputs",
+    "recommendedPrice": "Check inputs",
+    "breakEvenRoas": "Not viable",
+    "maxAdCostAtTarget": 0,
+    "status": "CHECK INPUTS: costs and fees exceed 100% of revenue  (no ad cost entered)",
+    "netRevenue": 0,
+    "paymentFeeExpected": 0.3,
+    "paymentFeeWorst": 0.49,
+    "roasForTarget": "Not viable",
+    "contributionPerOrder": -21.6,
+    "landedCost": 20.4,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
+   }
+  },
+  {
+   "input": {
+    "id": "wb2",
+    "name": "Workbook product 2",
+    "market": "Australia",
+    "unitCost": 19.99,
+    "supplierShipping": 0,
+    "adCostPerOrder": null,
+    "priceOverride": null,
+    "competitorPrice": 19.99
+   },
+   "expected": {
+    "tier": 3,
+    "markupPrice": 37.38,
+    "markupProfit": 17.39,
+    "minimumSafePrice": "Check inputs",
+    "priceToPublish": 37.38,
+    "competitorDiffPct": 0.869934967483742,
+    "netProfit": -23.18665,
+    "netMargin": 0,
+    "netProfitWorst": -23.37665,
+    "worstMethod": "PayPal Wallet",
+    "grossProfit": -20.3898,
+    "grossMargin": 0,
+    "breakEvenPrice": "Check inputs",
+    "recommendedPrice": "Check inputs",
+    "breakEvenRoas": "Not viable",
+    "maxAdCostAtTarget": 0,
+    "status": "CHECK INPUTS: costs and fees exceed 100% of revenue  (no ad cost entered)",
+    "netRevenue": 0,
+    "paymentFeeExpected": 0.3,
+    "paymentFeeWorst": 0.49,
+    "roasForTarget": "Not viable",
+    "contributionPerOrder": -21.5898,
+    "landedCost": 20.3898,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
+   }
+  },
+  {
+   "input": {
+    "id": "wb3",
+    "name": "Workbook product 3",
+    "market": "",
+    "unitCost": 21.59,
+    "supplierShipping": 0,
+    "adCostPerOrder": null,
+    "priceOverride": 20,
+    "competitorPrice": 22.99
+   },
+   "expected": {
+    "tier": 4,
+    "markupPrice": 40.19,
+    "markupProfit": 18.6,
+    "minimumSafePrice": "Check inputs",
+    "priceToPublish": 20,
+    "competitorDiffPct": -0.130056546324489,
+    "netProfit": -24.81865,
+    "netMargin": 0,
+    "netProfitWorst": -25.00865,
+    "worstMethod": "PayPal Wallet",
+    "grossProfit": -22.0218,
+    "grossMargin": 0,
+    "breakEvenPrice": "Check inputs",
+    "recommendedPrice": "Check inputs",
+    "breakEvenRoas": "Not viable",
+    "maxAdCostAtTarget": 0,
+    "status": "CHECK INPUTS: costs and fees exceed 100% of revenue  (no ad cost entered)",
+    "netRevenue": 0,
+    "paymentFeeExpected": 0.3,
+    "paymentFeeWorst": 0.49,
+    "roasForTarget": "Not viable",
+    "contributionPerOrder": -23.2218,
+    "landedCost": 22.0218,
+    "competitorPosition": "TOO_LOW",
+    "priceSource": "override"
+   }
+  },
+  {
+   "input": {
+    "id": "wb4",
+    "name": "Workbook product 4",
+    "market": "",
+    "unitCost": 17.99,
+    "supplierShipping": 0,
+    "adCostPerOrder": null,
+    "priceOverride": null,
+    "competitorPrice": 16.32
+   },
+   "expected": {
+    "tier": 3,
+    "markupPrice": 34.14,
+    "markupProfit": 16.15,
+    "minimumSafePrice": "Check inputs",
+    "priceToPublish": 34.14,
+    "competitorDiffPct": 1.09191176470588,
+    "netProfit": -21.14665,
+    "netMargin": 0,
+    "netProfitWorst": -21.33665,
+    "worstMethod": "PayPal Wallet",
+    "grossProfit": -18.3498,
+    "grossMargin": 0,
+    "breakEvenPrice": "Check inputs",
+    "recommendedPrice": "Check inputs",
+    "breakEvenRoas": "Not viable",
+    "maxAdCostAtTarget": 0,
+    "status": "CHECK INPUTS: costs and fees exceed 100% of revenue  (no ad cost entered)",
+    "netRevenue": 0,
+    "paymentFeeExpected": 0.3,
+    "paymentFeeWorst": 0.49,
+    "roasForTarget": "Not viable",
+    "contributionPerOrder": -19.5498,
+    "landedCost": 18.3498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
+   }
+  }
+ ],
+ "summary": {
+  "fixedMonthly": 159.685,
+  "fixedPerOrder": 1.59685
+ }
+}

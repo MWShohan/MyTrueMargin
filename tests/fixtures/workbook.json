@@ -432,7 +432,9 @@
     "paymentFeeWorst": 1.7299969999999998,
     "roasForTarget": 43.2538378194126,
     "contributionPerOrder": 10.590179999999997,
-    "landedCost": 20.4
+    "landedCost": 20.4,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -469,7 +471,9 @@
     "paymentFeeWorst": 1.7293339,
     "roasForTarget": 43.37030677124401,
     "contributionPerOrder": 10.583166000000006,
-    "landedCost": 20.389799999999997
+    "landedCost": 20.389799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -506,7 +510,9 @@
     "paymentFeeWorst": 1.8224994499999998,
     "roasForTarget": 38.51294373027979,
     "contributionPerOrder": 11.369732999999998,
-    "landedCost": 22.0218
+    "landedCost": 22.0218,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -543,7 +549,9 @@
     "paymentFeeWorst": 1.6219117,
     "roasForTarget": 41.68455307959039,
     "contributionPerOrder": 9.834498000000002,
-    "landedCost": 18.3498
+    "landedCost": 18.3498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -580,7 +588,9 @@
     "paymentFeeWorst": 1.5678690499999999,
     "roasForTarget": 40.55894373003878,
     "contributionPerOrder": 9.461756999999997,
-    "landedCost": 17.3196
+    "landedCost": 17.3196,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -617,7 +627,9 @@
     "paymentFeeWorst": 2.273739,
     "roasForTarget": 42.07588642556671,
     "contributionPerOrder": 14.566859999999995,
-    "landedCost": 30.538800000000002
+    "landedCost": 30.538800000000002,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -654,7 +666,9 @@
     "paymentFeeWorst": 1.5144894999999998,
     "roasForTarget": 39.81256696458844,
     "contributionPerOrder": 9.08583,
-    "landedCost": 16.3098
+    "landedCost": 16.3098,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -691,7 +705,9 @@
     "paymentFeeWorst": 1.65871375,
     "roasForTarget": 42.00112880973299,
     "contributionPerOrder": 10.096274999999997,
-    "landedCost": 19.043400000000002
+    "landedCost": 19.043400000000002,
+    "competitorPosition": "COMPETITIVE",
+    "priceSource": "markup"
    }
   },
   {
@@ -728,7 +744,9 @@
     "paymentFeeWorst": 1.0171645,
     "roasForTarget": 23.9332625608036,
     "contributionPerOrder": 5.702130000000001,
-    "landedCost": 6.783
+    "landedCost": 6.783,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -765,7 +783,9 @@
     "paymentFeeWorst": 1.5625642499999999,
     "roasForTarget": 40.399227048059586,
     "contributionPerOrder": 9.426045000000002,
-    "landedCost": 17.217599999999997
+    "landedCost": 17.217599999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -802,7 +822,9 @@
     "paymentFeeWorst": 2.8168179,
     "roasForTarget": 44.95848129331722,
     "contributionPerOrder": 18.41412600000001,
-    "landedCost": 40.7898
+    "landedCost": 40.7898,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -839,7 +861,9 @@
     "paymentFeeWorst": 1.5682006000000002,
     "roasForTarget": 40.77371603840054,
     "contributionPerOrder": 9.460164000000004,
-    "landedCost": 17.3298
+    "landedCost": 17.3298,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -876,7 +900,9 @@
     "paymentFeeWorst": 1.1033675,
     "roasForTarget": 18.815909212568954,
     "contributionPerOrder": 6.573149999999998,
-    "landedCost": 8.1498
+    "landedCost": 8.1498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -913,7 +939,9 @@
     "paymentFeeWorst": 1.2996451000000002,
     "roasForTarget": 35.37112311206117,
     "contributionPerOrder": 7.588494000000001,
-    "landedCost": 12.229800000000001
+    "landedCost": 12.229800000000001,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -950,7 +978,9 @@
     "paymentFeeWorst": 1.2638376999999998,
     "roasForTarget": 34.339582900984745,
     "contributionPerOrder": 7.342337999999998,
-    "landedCost": 11.5464
+    "landedCost": 11.5464,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -987,7 +1017,9 @@
     "paymentFeeWorst": 1.6219117,
     "roasForTarget": 41.68455307959039,
     "contributionPerOrder": 9.834498000000002,
-    "landedCost": 18.3498
+    "landedCost": 18.3498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1024,7 +1056,9 @@
     "paymentFeeWorst": 1.26151685,
     "roasForTarget": 34.45827565997043,
     "contributionPerOrder": 7.322888999999997,
-    "landedCost": 11.5056
+    "landedCost": 11.5056,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1061,7 +1095,9 @@
     "paymentFeeWorst": 2.6099306999999996,
     "roasForTarget": 43.946034561841735,
     "contributionPerOrder": 16.949958000000002,
-    "landedCost": 36.883199999999995
+    "landedCost": 36.883199999999995,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1098,7 +1134,9 @@
     "paymentFeeWorst": 2.6006473000000003,
     "roasForTarget": 43.95763343853257,
     "contributionPerOrder": 16.882362,
-    "landedCost": 36.7098
+    "landedCost": 36.7098,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1135,7 +1173,9 @@
     "paymentFeeWorst": 2.0602207999999997,
     "roasForTarget": 40.608623917136406,
     "contributionPerOrder": 13.052952000000001,
-    "landedCost": 26.5098
+    "landedCost": 26.5098,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1172,7 +1212,9 @@
     "paymentFeeWorst": 1.89809285,
     "roasForTarget": 39.26345680742405,
     "contributionPerOrder": 11.904129,
-    "landedCost": 23.4498
+    "landedCost": 23.4498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1209,7 +1251,9 @@
     "paymentFeeWorst": 0.9137209,
     "roasForTarget": 45.02236099471227,
     "contributionPerOrder": 4.658945999999998,
-    "landedCost": 5.1408000000000005
+    "landedCost": 5.1408000000000005,
+    "competitorPosition": "TOO_LOW",
+    "priceSource": "markup"
    }
   },
   {
@@ -1246,7 +1290,9 @@
     "paymentFeeWorst": 1.21708915,
     "roasForTarget": 15.647861342530717,
     "contributionPerOrder": 7.719950999999997,
-    "landedCost": 9.9552
+    "landedCost": 9.9552,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1283,7 +1329,9 @@
     "paymentFeeWorst": 3.2106993,
     "roasForTarget": 39.526294921314495,
     "contributionPerOrder": 21.499242,
-    "landedCost": 47.9298
+    "landedCost": 47.9298,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1320,7 +1368,9 @@
     "paymentFeeWorst": 1.6756227999999997,
     "roasForTarget": 42.54892776000668,
     "contributionPerOrder": 10.208831999999997,
-    "landedCost": 19.369799999999998
+    "landedCost": 19.369799999999998,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1357,7 +1407,9 @@
     "paymentFeeWorst": 2.28202775,
     "roasForTarget": 42.0102924091437,
     "contributionPerOrder": 14.629035,
-    "landedCost": 30.6918
+    "landedCost": 30.6918,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1394,7 +1446,9 @@
     "paymentFeeWorst": 1.245934,
     "roasForTarget": 34.08286258280756,
     "contributionPerOrder": 7.21416,
-    "landedCost": 11.2098
+    "landedCost": 11.2098,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1431,7 +1485,9 @@
     "paymentFeeWorst": 1.3533562,
     "roasForTarget": 36.58179516679046,
     "contributionPerOrder": 7.962827999999999,
-    "landedCost": 13.2498
+    "landedCost": 13.2498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1468,7 +1524,9 @@
     "paymentFeeWorst": 2.2763914,
     "roasForTarget": 42.12541334522795,
     "contributionPerOrder": 14.58471600000001,
-    "landedCost": 30.589799999999997
+    "landedCost": 30.589799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1505,7 +1563,9 @@
     "paymentFeeWorst": 3.5369445000000006,
     "roasForTarget": 40.20437203262209,
     "contributionPerOrder": 23.848530000000007,
-    "landedCost": 54.049800000000005
+    "landedCost": 54.049800000000005,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1542,7 +1602,9 @@
     "paymentFeeWorst": 2.60628365,
     "roasForTarget": 43.84638634365329,
     "contributionPerOrder": 16.92668099999999,
-    "landedCost": 36.811800000000005
+    "landedCost": 36.811800000000005,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1579,7 +1641,9 @@
     "paymentFeeWorst": 1.4070673,
     "roasForTarget": 37.721683256723374,
     "contributionPerOrder": 8.337162,
-    "landedCost": 14.2698
+    "landedCost": 14.2698,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1616,7 +1680,9 @@
     "paymentFeeWorst": 2.2763914,
     "roasForTarget": 42.12541334522795,
     "contributionPerOrder": 14.58471600000001,
-    "landedCost": 30.589799999999997
+    "landedCost": 30.589799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1653,7 +1719,9 @@
     "paymentFeeWorst": 1.8440502,
     "roasForTarget": 38.767063883021294,
     "contributionPerOrder": 11.521188000000002,
-    "landedCost": 22.4298
+    "landedCost": 22.4298,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1690,7 +1758,9 @@
     "paymentFeeWorst": 1.89809285,
     "roasForTarget": 39.26345680742405,
     "contributionPerOrder": 11.904129,
-    "landedCost": 23.4498
+    "landedCost": 23.4498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1727,7 +1797,9 @@
     "paymentFeeWorst": 1.7293339,
     "roasForTarget": 43.37030677124401,
     "contributionPerOrder": 10.583166000000006,
-    "landedCost": 20.389799999999997
+    "landedCost": 20.389799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1764,7 +1836,9 @@
     "paymentFeeWorst": 2.2763914,
     "roasForTarget": 42.12541334522795,
     "contributionPerOrder": 14.58471600000001,
-    "landedCost": 30.589799999999997
+    "landedCost": 30.589799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1801,7 +1875,9 @@
     "paymentFeeWorst": 1.4607784,
     "roasForTarget": 38.79681881707081,
     "contributionPerOrder": 8.711496,
-    "landedCost": 15.2898
+    "landedCost": 15.2898,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1838,7 +1914,9 @@
     "paymentFeeWorst": 2.2763914,
     "roasForTarget": 42.12541334522795,
     "contributionPerOrder": 14.58471600000001,
-    "landedCost": 30.589799999999997
+    "landedCost": 30.589799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1875,7 +1953,9 @@
     "paymentFeeWorst": 1.35236155,
     "roasForTarget": 36.47847859078906,
     "contributionPerOrder": 7.957407000000002,
-    "landedCost": 13.2294
+    "landedCost": 13.2294,
+    "competitorPosition": "TOO_LOW",
+    "priceSource": "markup"
    }
   },
   {
@@ -1912,7 +1992,9 @@
     "paymentFeeWorst": 1.9826381,
     "roasForTarget": 39.822382620387046,
     "contributionPerOrder": 12.507714,
-    "landedCost": 25.041
+    "landedCost": 25.041,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1949,7 +2031,9 @@
     "paymentFeeWorst": 1.3885005000000001,
     "roasForTarget": 37.09814545297337,
     "contributionPerOrder": 8.212170000000002,
-    "landedCost": 13.9128
+    "landedCost": 13.9128,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -1986,7 +2070,9 @@
     "paymentFeeWorst": 1.2320088999999999,
     "roasForTarget": 15.342195692552833,
     "contributionPerOrder": 7.872665999999999,
-    "landedCost": 10.1898
+    "landedCost": 10.1898,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2023,7 +2109,9 @@
     "paymentFeeWorst": 1.5144894999999998,
     "roasForTarget": 39.81256696458844,
     "contributionPerOrder": 9.08583,
-    "landedCost": 16.3098
+    "landedCost": 16.3098,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2060,7 +2148,9 @@
     "paymentFeeWorst": 1.3533562,
     "roasForTarget": 36.58179516679046,
     "contributionPerOrder": 7.962827999999999,
-    "landedCost": 13.2498
+    "landedCost": 13.2498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2097,7 +2187,9 @@
     "paymentFeeWorst": 1.6219117,
     "roasForTarget": 41.68455307959039,
     "contributionPerOrder": 9.834498000000002,
-    "landedCost": 18.3498
+    "landedCost": 18.3498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2134,7 +2226,9 @@
     "paymentFeeWorst": 1.0649077,
     "roasForTarget": 20.563027245106134,
     "contributionPerOrder": 6.186737999999998,
-    "landedCost": 7.537800000000001
+    "landedCost": 7.537800000000001,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2171,7 +2265,9 @@
     "paymentFeeWorst": 1.4607784,
     "roasForTarget": 38.79681881707081,
     "contributionPerOrder": 8.711496,
-    "landedCost": 15.2898
+    "landedCost": 15.2898,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2208,7 +2304,9 @@
     "paymentFeeWorst": 1.3480514,
     "roasForTarget": 36.39749750549982,
     "contributionPerOrder": 7.927115999999998,
-    "landedCost": 13.1478
+    "landedCost": 13.1478,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2245,7 +2343,9 @@
     "paymentFeeWorst": 1.2996451000000002,
     "roasForTarget": 35.37112311206117,
     "contributionPerOrder": 7.588494000000001,
-    "landedCost": 12.229800000000001
+    "landedCost": 12.229800000000001,
+    "competitorPosition": "TOO_LOW",
+    "priceSource": "markup"
    }
   },
   {
@@ -2282,7 +2382,9 @@
     "paymentFeeWorst": 2.6006473000000003,
     "roasForTarget": 43.95763343853257,
     "contributionPerOrder": 16.882362,
-    "landedCost": 36.7098
+    "landedCost": 36.7098,
+    "competitorPosition": "COMPETITIVE",
+    "priceSource": "markup"
    }
   },
   {
@@ -2319,7 +2421,9 @@
     "paymentFeeWorst": 1.7293339,
     "roasForTarget": 43.37030677124401,
     "contributionPerOrder": 10.583166000000006,
-    "landedCost": 20.389799999999997
+    "landedCost": 20.389799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2356,7 +2460,9 @@
     "paymentFeeWorst": 3.9155745999999994,
     "roasForTarget": 40.79120491851666,
     "contributionPerOrder": 26.578523999999987,
-    "landedCost": 61.149
+    "landedCost": 61.149,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2393,7 +2499,9 @@
     "paymentFeeWorst": 1.000587,
     "roasForTarget": 25.43330493889401,
     "contributionPerOrder": 5.53698,
-    "landedCost": 6.517799999999999
+    "landedCost": 6.517799999999999,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2430,7 +2538,9 @@
     "paymentFeeWorst": 1.2320088999999999,
     "roasForTarget": 15.342195692552833,
     "contributionPerOrder": 7.872665999999999,
-    "landedCost": 10.1898
+    "landedCost": 10.1898,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2467,7 +2577,9 @@
     "paymentFeeWorst": 1.2996451000000002,
     "roasForTarget": 35.37112311206117,
     "contributionPerOrder": 7.588494000000001,
-    "landedCost": 12.229800000000001
+    "landedCost": 12.229800000000001,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2504,7 +2616,9 @@
     "paymentFeeWorst": 2.0555791,
     "roasForTarget": 40.419558240241415,
     "contributionPerOrder": 13.024253999999997,
-    "landedCost": 26.418
+    "landedCost": 26.418,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2541,7 +2655,9 @@
     "paymentFeeWorst": 1.4770243499999998,
     "roasForTarget": 38.97434554685222,
     "contributionPerOrder": 8.827238999999999,
-    "landedCost": 15.595799999999999
+    "landedCost": 15.595799999999999,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2578,7 +2694,9 @@
     "paymentFeeWorst": 1.48896015,
     "roasForTarget": 39.079864998443554,
     "contributionPerOrder": 8.912690999999999,
-    "landedCost": 15.8202
+    "landedCost": 15.8202,
+    "competitorPosition": "COMPETITIVE",
+    "priceSource": "markup"
    }
   },
   {
@@ -2615,7 +2733,9 @@
     "paymentFeeWorst": 2.001868,
     "roasForTarget": 40.138241589222375,
     "contributionPerOrder": 12.63972,
-    "landedCost": 25.4082
+    "landedCost": 25.4082,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2652,7 +2772,9 @@
     "paymentFeeWorst": 1.1033675,
     "roasForTarget": 18.815909212568954,
     "contributionPerOrder": 6.573149999999998,
-    "landedCost": 8.1498
+    "landedCost": 8.1498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2689,7 +2811,9 @@
     "paymentFeeWorst": 1.3056130000000001,
     "roasForTarget": 35.44829887602949,
     "contributionPerOrder": 7.631220000000002,
-    "landedCost": 12.341999999999999
+    "landedCost": 12.341999999999999,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2726,7 +2850,9 @@
     "paymentFeeWorst": 1.2300195999999999,
     "roasForTarget": 15.389148632583712,
     "contributionPerOrder": 7.851624,
-    "landedCost": 10.1592
+    "landedCost": 10.1592,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2763,7 +2889,9 @@
     "paymentFeeWorst": 1.0131858999999999,
     "roasForTarget": 24.36507136750615,
     "contributionPerOrder": 5.660045999999998,
-    "landedCost": 6.7218
+    "landedCost": 6.7218,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2800,7 +2928,9 @@
     "paymentFeeWorst": 2.2763914,
     "roasForTarget": 42.12541334522795,
     "contributionPerOrder": 14.58471600000001,
-    "landedCost": 30.589799999999997
+    "landedCost": 30.589799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2837,7 +2967,9 @@
     "paymentFeeWorst": 1.4442009,
     "roasForTarget": 38.396721652206345,
     "contributionPerOrder": 8.597346000000002,
-    "landedCost": 14.9736
+    "landedCost": 14.9736,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2874,7 +3006,9 @@
     "paymentFeeWorst": 1.36363425,
     "roasForTarget": 36.73039676018317,
     "contributionPerOrder": 8.035844999999998,
-    "landedCost": 13.4436
+    "landedCost": 13.4436,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2911,7 +3045,9 @@
     "paymentFeeWorst": 1.3533562,
     "roasForTarget": 36.58179516679046,
     "contributionPerOrder": 7.962827999999999,
-    "landedCost": 13.2498
+    "landedCost": 13.2498,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -2948,7 +3084,9 @@
     "paymentFeeWorst": 3.3738219000000003,
     "roasForTarget": 39.881635556825415,
     "contributionPerOrder": 22.673886000000003,
-    "landedCost": 50.9898
+    "landedCost": 50.9898,
+    "competitorPosition": "NO_COMPETITOR_PRICE",
+    "priceSource": "markup"
    }
   },
   {
@@ -2985,7 +3123,9 @@
     "paymentFeeWorst": 3.9175638999999993,
     "roasForTarget": 40.85339931264183,
     "contributionPerOrder": 26.589365999999984,
-    "landedCost": 61.189800000000005
+    "landedCost": 61.189800000000005,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3022,7 +3162,9 @@
     "paymentFeeWorst": 1.0383837,
     "roasForTarget": 22.27094784405664,
     "contributionPerOrder": 5.916377999999998,
-    "landedCost": 7.1196
+    "landedCost": 7.1196,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3059,7 +3201,9 @@
     "paymentFeeWorst": 1.3997732,
     "roasForTarget": 37.34039231190128,
     "contributionPerOrder": 8.290608000000002,
-    "landedCost": 14.126999999999999
+    "landedCost": 14.126999999999999,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3096,7 +3240,9 @@
     "paymentFeeWorst": 2.0061781499999998,
     "roasForTarget": 40.18245285601721,
     "contributionPerOrder": 12.670010999999995,
-    "landedCost": 25.4898
+    "landedCost": 25.4898,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3133,7 +3279,9 @@
     "paymentFeeWorst": 2.2763914,
     "roasForTarget": 42.12541334522795,
     "contributionPerOrder": 14.58471600000001,
-    "landedCost": 30.589799999999997
+    "landedCost": 30.589799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3170,7 +3318,9 @@
     "paymentFeeWorst": 1.9252799499999997,
     "roasForTarget": 39.38514903446505,
     "contributionPerOrder": 12.099903,
-    "landedCost": 23.959799999999998
+    "landedCost": 23.959799999999998,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3207,7 +3357,9 @@
     "paymentFeeWorst": 1.6756227999999997,
     "roasForTarget": 42.54892776000668,
     "contributionPerOrder": 10.208831999999997,
-    "landedCost": 19.369799999999998
+    "landedCost": 19.369799999999998,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3244,7 +3396,9 @@
     "paymentFeeWorst": 1.5682006000000002,
     "roasForTarget": 40.77371603840054,
     "contributionPerOrder": 9.460164000000004,
-    "landedCost": 17.3298
+    "landedCost": 17.3298,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3281,7 +3435,9 @@
     "paymentFeeWorst": 1.4607784,
     "roasForTarget": 38.79681881707081,
     "contributionPerOrder": 8.711496,
-    "landedCost": 15.2898
+    "landedCost": 15.2898,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3318,7 +3474,9 @@
     "paymentFeeWorst": 0.9375925,
     "roasForTarget": 36.16241364725796,
     "contributionPerOrder": 4.901249999999998,
-    "landedCost": 5.5182
+    "landedCost": 5.5182,
+    "competitorPosition": "COMPETITIVE",
+    "priceSource": "markup"
    }
   },
   {
@@ -3355,7 +3513,9 @@
     "paymentFeeWorst": 2.2763914,
     "roasForTarget": 42.12541334522795,
     "contributionPerOrder": 14.58471600000001,
-    "landedCost": 30.589799999999997
+    "landedCost": 30.589799999999997,
+    "competitorPosition": "TOO_HIGH",
+    "priceSource": "markup"
    }
   },
   {
@@ -3392,7 +3552,9 @@
     "paymentFeeWorst": 2.0061781499999998,
     "roasForTarget": 40.18245285601721,
     "contributionPerOrder": 12.670010999999995,
-    "landedCost": 25.4898
+    "landedCost": 25.4898,
+    "competitorPosition": "TOO_LOW",
+    "priceSource": "markup"
    }
   }
  ],

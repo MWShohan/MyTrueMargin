@@ -56,6 +56,9 @@ describe.each(files)('workbook fixture %s', (file) => {
         expect(got, `${k} (${String(e)})`).toBeNull();
       }
     }
+    // Added to fixtures later; older fixtures may not carry them.
+    if (expected.competitorPosition != null) expect(r.competitorPosition).toBe(expected.competitorPosition);
+    if (expected.priceSource != null) expect(r.priceSource).toBe(expected.priceSource);
     expect(r.tierIndex + 1).toBe(expected.tier);
     expect(r.worstMethod).toBe(expected.worstMethod);
     expect(r.status).toBe(statusPrefix(String(expected.status)));
