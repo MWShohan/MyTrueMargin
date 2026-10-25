@@ -7,6 +7,12 @@
     <meta name="description" content="MyTrueMargin: a product margin calculator that shows what you really keep after advertising and every cost." />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='2' y='2' width='20' height='20' rx='6' fill='%232a78d6'/%3E%3Cpath d='M7 15l3.5-4 3 2.5L17 9' stroke='white' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
     <title>MyTrueMargin</title>
+    <script>
+      try {
+        var t = localStorage.getItem('mytruemargin:theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

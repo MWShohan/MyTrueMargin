@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import type { KeyboardEvent } from 'react';
 import type { Model, Product } from './engine';
 import { newId } from './lib/labels';
+import { applyTheme, loadTheme, THEMES } from './lib/theme';
+import type { Theme } from './lib/theme';
 import { defaultData, downloadText, loadData, parseAppData, saveData, serialiseAppData } from './lib/storage';
 import { Dashboard } from './tabs/Dashboard';
 import { Guide } from './tabs/Guide';
@@ -25,12 +27,17 @@ export default function App() {
   const [quick, setQuick] = useState<Product>(initial.quick);
   const [tab, setTab] = useState<TabId>('quick');
   const [message, setMessage] = useState('');
+  const [theme, setTheme] = useState<Theme>(loadTheme);
   const fileRef = useRef<HTMLInputElement>(null);
   const tabRefs = useRef<Record<string, HTMLButtonElement | null>>({});
 
   useEffect(() => {
     saveData({ model, products, quick });
   }, [model, products, quick]);
+
+  useEffect(() => {
+    applyTheme(theme);
+  }, [theme]);
 
   const onTabKey = (e: KeyboardEvent<HTMLButtonElement>) => {
     const i = TABS.findIndex((t) => t.id === tab);
@@ -99,6 +106,16 @@ export default function App() {
           </div>
         </div>
         <div className="header-actions">
+          <label className="theme-picker">
+            <span>Theme</span>
+            <select value={theme} onChange={(e) => setTheme(e.target.value as Theme)}>
+              {THEMES.map((t) => (
+                <option key={t.id} value={t.id}>
+                  {t.label}
+                </option>
+              ))}
+            </select>
+          </label>
           <button type="button" className="btn ghost" onClick={reset}>
             Reset to examples
           </button>

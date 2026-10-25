@@ -103,3 +103,26 @@ describe('App', () => {
     expect(stored.model.settings.targetMarginPct).toBeCloseTo(0.25, 10);
   });
 });
+
+describe('Theme', () => {
+  afterEach(() => document.documentElement.removeAttribute('data-theme'));
+
+  it('switches theme, remembers it, and returns to the device setting', () => {
+    const { unmount } = render(<App />);
+    const picker = screen.getByLabelText('Theme') as HTMLSelectElement;
+    expect(picker.value).toBe('system');
+    expect(document.documentElement.hasAttribute('data-theme')).toBe(false);
+
+    fireEvent.change(picker, { target: { value: 'dark' } });
+    expect(document.documentElement.getAttribute('data-theme')).toBe('dark');
+    expect(window.localStorage.getItem('mytruemargin:theme')).toBe('dark');
+
+    unmount();
+    render(<App />);
+    expect((screen.getByLabelText('Theme') as HTMLSelectElement).value).toBe('dark');
+
+    fireEvent.change(screen.getByLabelText('Theme'), { target: { value: 'system' } });
+    expect(document.documentElement.hasAttribute('data-theme')).toBe(false);
+    expect(window.localStorage.getItem('mytruemargin:theme')).toBeNull();
+  });
+});

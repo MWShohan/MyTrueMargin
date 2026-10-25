@@ -75,3 +75,11 @@ The engine was built to match a reference pricing spreadsheet. To prove it still
 * **Data is stored in your browser only** (localStorage). Clearing site data or using another browser or device loses it. Use Export JSON to keep a backup and Import JSON to restore it.
 * Figures are per order averages; they are estimates for pricing decisions, not accounting or tax advice.
 * One store currency is used for display; supplier costs are converted with a single exchange rate.
+
+## Single HTML file
+
+`npm run build` also writes `dist/mytruemargin.html`: the whole app in one file, with no external requests. Open it straight from disk in any modern browser, or download it from the published site at `/mytruemargin.html`. Data is saved in that browser only.
+
+## Theme
+
+The header has a Theme option: Match device, Light or Dark. The choice is remembered in the browser.
