@@ -765,6 +765,10 @@ table.data {
 .w-num input {
   text-align: right;
 }
+/* Number fields sit at the right of their cell, under the right aligned heading. */
+.data td > .field.w-num {
+  margin-left: auto;
+}
 .w-url {
   width: 180px;
 }
